@@ -2,20 +2,72 @@ This is repository to hold the Health Monitoring Unity Project
 
 The repository contains multiple modules developed independently. 
 
-## Module 1:
-Author: 
+## Sensors:
+Author: Brian
+
 Description: 
+
 -- Input
+
 -- Output
 
-## Module 2:
-Author: 
+## Display:
+
+Author: Ed
+
 Description: 
+
 -- Input
+
 -- Output
 
-## Module 3:
-Author: 
+
+## Storage:
+
+Author: JP
+
 Description: 
+
 -- Input
+
+-- Output
+
+## Vitals:
+
+Author: Danny
+
+Description: 
+
+-- Input
+
+-- Output
+
+## Processor:
+
+Author: Steven
+
+Description: 
+
+-- Input
+
+-- Output
+
+## Settings:
+
+Author: Jenny
+
+Description: 
+
+-- Input
+
+-- Output
+
+## Steven:
+
+Author: Danny
+
+Description: 
+
+-- Input
+
 -- Output
