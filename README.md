@@ -17,9 +17,9 @@ Author: Ed
 
 Description: 
 
--- Input
+-- Input: setting, data inputs (updated sec by sec)
 
--- Output
+-- Outpu: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
 
 
 ## Storage:
