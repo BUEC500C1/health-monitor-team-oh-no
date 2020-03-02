@@ -71,3 +71,5 @@ Description:
 -- Input
 
 -- Output
+
+![Class Diagram](ec500_vitalschecker.png)
