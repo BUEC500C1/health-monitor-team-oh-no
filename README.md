@@ -62,15 +62,6 @@ Description:
 
 -- Output
 
-## Processor:
-
-Author: Steven
-
-Description: 
-
--- Input
-
--- Output
 
 ## Overall Architecture
 ![Class Diagram](ec500_vitalschecker.png)
