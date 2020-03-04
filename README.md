@@ -72,15 +72,6 @@ Description: Reads out a file, then makes a pseudo-prediction of changes to puls
 
 -- Output: List of integers (heart rate, blood pressure, and oxygen level predictions)
 
-## Processor:
-
-Author: Steven
-
-Description: 
-
--- Input
-
--- Output
 
 ## Overall Architecture
 ![Class Diagram](e500_vitalschecker.png)
