@@ -83,4 +83,4 @@ Description:
 -- Output
 
 ## Overall Architecture
-![Class Diagram](ec500_vitalschecker.png)
+![Class Diagram](e500_vitalschecker.png)
