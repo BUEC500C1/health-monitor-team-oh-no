@@ -56,11 +56,11 @@ Description:
 
 Author: Jenny
 
-Description: 
+Description: Every 15 seconds, a random time setting is designated and sent to the processor for display.
 
--- Input
+-- Input: None (runs independently)
 
--- Output
+-- Output: Integer representing time display interval (in minutes, but changes every 15 seconds)
 
 ## Processor:
 
