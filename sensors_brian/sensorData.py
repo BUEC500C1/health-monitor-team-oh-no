@@ -8,7 +8,7 @@ def genNumbers():
     footPressure = random.randint(75, 100)
 
     # Random float x, 100.0 <= x < 120.0
-    bloodPressure = random.randint(100, 120)
+    bloodPressure = [random.randint(100, 120), random.randint(100, 120)]
 
     dict = {}
     dict['heartRate'] = heartRate
@@ -18,5 +18,7 @@ def genNumbers():
     return dict
 
 # Test
-d = genNumbers()
-print(d)
+if __name__ == '__main__':
+    for i in range(5):
+        d = genNumbers()
+        print(d)

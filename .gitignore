@@ -1,2 +1,6 @@
 temp*
 *.pyc
+venv/*
+*/venv/*
+*/output/*
+output

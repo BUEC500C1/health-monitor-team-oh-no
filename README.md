@@ -56,21 +56,22 @@ Description:
 
 Author: Jenny
 
-Description: 
+Description: Every 15 seconds, a random time setting is designated and sent to the processor for display.
 
--- Input
+-- Input: None (runs independently)
 
--- Output
+-- Output: Integer representing time display interval (in minutes, but changes every 15 seconds)
 
-## Processor:
+## AI:
 
-Author: Steven
+Author: Jenny
 
-Description: 
+Description: Reads out a file, then makes a pseudo-prediction of changes to pulse, blood pressure, and oxygen levels.
 
--- Input
+-- Input: File (.txt, .csv, etc.)
 
--- Output
+-- Output: List of integers (heart rate, blood pressure, and oxygen level predictions)
+
 
 ## Overall Architecture
-![Class Diagram](ec500_vitalschecker.png)
+![Class Diagram](e500_vitalschecker.png)
