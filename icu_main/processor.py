@@ -1,8 +1,7 @@
 from ai_generator import ai_thoughts
-from sensorData import genNumbers
-from settings_generator import time_display_change
 import time
 
+# This function has to be run from the main_run_script.
 def processData(data,current_alerts,time_setting):
 	try:
 		vital_trend = ai_thoughts('output/healthmonitor.csv'); # The file name could probably be an input
