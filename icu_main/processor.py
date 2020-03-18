@@ -5,7 +5,7 @@ import time
 
 def processData(data,current_alerts,time_setting):
 	try:
-		vital_trend = ai_thoughts('output/healthmonitor.csv');
+		vital_trend = ai_thoughts('output/healthmonitor.csv'); # The file name could probably be an input
 	except:
 		print('Error retrieving AI thoughts.');
 		return False; 

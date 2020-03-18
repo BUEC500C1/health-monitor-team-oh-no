@@ -34,5 +34,6 @@ if __name__ == '__main__':
         processedData = processData(vitals,current_alerts,time_setting);
         print(processedData);
         # Display will have to run a function to append the processed data here.
+        # Can run this file to see what the processor outputs. 
         # Updating the display could probably be done from a thread.
         sleep(1); # Collects data every 1 second. 
