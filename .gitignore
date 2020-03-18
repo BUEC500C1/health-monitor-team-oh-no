@@ -3,4 +3,4 @@ temp*
 venv/*
 */venv/*
 */output/*
-output
+# output
