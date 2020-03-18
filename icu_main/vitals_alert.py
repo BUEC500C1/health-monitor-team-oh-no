@@ -1,5 +1,3 @@
-from processor import update_alert_status
-
 class vitals_alert():
 
     def __init__(self):
@@ -67,8 +65,4 @@ class vitals_alert():
         else:
             alerts[2] = ['n', vitals['bloodPressure']]
             
-        # This function updates the global variable of alerts.
-        # There needs to be a global variable in the main function called current_alerts.
-        update_alert_status(alerts);
-        
-        self.alert_user(alerts)
+        return alerts
