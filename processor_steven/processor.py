@@ -25,7 +25,20 @@ def processData():
 	# Any type of data manipulation
 	
 	# What is returned?
-	return True;
+	data.update({'time_setting' : time_setting});
+	# This portion deals with the current alert status
+	# For example '000' would be all normal
+	# Another example '210' high hr, low fp, normal bp
+	alert_code = '';
+	for status in alerts:
+        if current_alerts[0] == 'h':
+			alert_code = alert_code + '2';
+		elif current_alerts[0] == 'l':
+			alert_code = alert_code + '1';
+		else:
+			alert_code = alert_code + '0';
+	data.update({'alert_code' : alert_code});
+	return data;
 
 def update_alert_status(alerts):
 	# Updates a global variable with the current alert status
@@ -35,4 +48,4 @@ def update_alert_status(alerts):
 	return True;
 	
 # if __name__ == '__main__':
-	# processData():
+	# print(processData());
