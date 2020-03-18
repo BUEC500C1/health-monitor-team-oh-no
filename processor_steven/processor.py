@@ -1,6 +1,6 @@
-from ai_jenny.ai_generator import ai_thoughts
-from sensors_brian.sensorData import genNumbers
-from settings_jenny.settings_generator.py import time_display_change
+from ai_generator import ai_thoughts
+from sensorData import genNumbers
+from settings_generator import time_display_change
 import time
 
 global current_alerts;
@@ -38,6 +38,7 @@ def processData():
 		else:
 			alert_code = alert_code + '0';
 	data.update({'alert_code' : alert_code});
+    
 	return data;
 
 def update_alert_status(alerts):
