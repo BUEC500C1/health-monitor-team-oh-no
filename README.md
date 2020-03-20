@@ -40,13 +40,14 @@ Description: The vitals module takes in data from the sensor modules in a dictio
 set uppper and lower thresholds for blood pressure, heart rate, and foot pressure. If any of these values exceed the threshold,
 a callback to the processor thread occurs.
 
--- Input dict['heartRate'] = heartRate
-         dict['footPressure'] = footPressure
-         dict['bloodPressure'] = bloodPressure
+-- Input dict <br>
+         dict['heartRate'] = heartRate [int] <br>
+         dict['footPressure'] = footPressure [int]  <br>
+         dict['bloodPressure'] = bloodPressure [int, int]
 
--- Output alerts = [['n', 0], ['n', 0], ['n', [0, 0]]]
-                'n' = normal
-                'h' = high
+-- Output alerts = [['n', 0], ['n', 0], ['n', [0, 0]]] <br>
+                'n' = normal  <br>
+                'h' = high  <br>
                 'l' = low
 
 ## Processor:
