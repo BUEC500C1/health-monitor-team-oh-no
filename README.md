@@ -7,9 +7,9 @@ Author: Brian
 
 Description: 
 
--- Input
+-- Input: None
 
--- Output
+-- Output: Dictionary containing three randomly generated numbers which represent output of three sensors feeding into our Vitals Check.
 
 ## Display:
 
