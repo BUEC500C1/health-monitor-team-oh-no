@@ -83,3 +83,19 @@ Description: Reads out a file, then makes a pseudo-prediction of changes to puls
 
 ## Overall Architecture
 ![Class Diagram](e500_vitalschecker.png)
+
+For Process-Thread decisions, we decided to go with two processes. One of the processes handles the alerts,
+generation of data, writing to a csv and etc. The other process is solely producing the graphs for visual
+display. This decision was made because generally any visual component will always have more overhead than
+calculations.
+
+## Inteface
+![Graphs](graphs.png)
+
+![Alerts](alert.png)
+
+## How to Run
+
+To run the health-monitor, the user navigates to the icu_main folder and and runs python main_run_script.py.
+All data is logged into data.csv. Alerts for high blood pressure, heart rate, and foot pressure are printed in the
+command line.
