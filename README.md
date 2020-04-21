@@ -92,10 +92,11 @@ calculations.
 ## Inteface
 ![Graphs](graphs.png)
 
+
 ![Alerts](alert.png)
 
 ## How to Run
 
-To run the health-monitor, the user navigates to the icu_main folder and and runs python main_run_script.py.
+To run the health-monitor, the user navigates to the icu_main folder and run python main_run_script.py.
 All data is logged into data.csv. Alerts for high blood pressure, heart rate, and foot pressure are printed in the
 command line.
