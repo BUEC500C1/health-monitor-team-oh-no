@@ -5,7 +5,7 @@ The repository contains multiple modules developed independently.
 ## Sensors:
 Author: Brian
 
-Description: 
+Description: Module to simulate sensor data
 
 -- Input: None
 
@@ -15,22 +15,22 @@ Description:
 
 Author: Ed
 
-Description: 
+Description: Visual representation of sensor data
 
 -- Input: setting, data inputs (updated sec by sec)
 
--- Outpu: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
+-- Output: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
 
 
 ## Storage:
 
 Author: JP
 
-Description: 
+Description: Storage of sensor data into a csv file
 
--- Input
+-- Input:  appendrow(timestamp, heartRate='', bloodPressure='', oxygenLevel='')
 
--- Output
+-- Output: csv file
 
 ## Vitals:
 
@@ -40,12 +40,12 @@ Description: The vitals module takes in data from the sensor modules in a dictio
 set uppper and lower thresholds for blood pressure, heart rate, and foot pressure. If any of these values exceed the threshold,
 a callback to the processor thread occurs.
 
--- Input dict <br>
+-- Input: dict <br>
          dict['heartRate'] = heartRate [int] <br>
          dict['footPressure'] = footPressure [int]  <br>
          dict['bloodPressure'] = bloodPressure [int, int]
 
--- Output alerts = [['n', 0], ['n', 0], ['n', [0, 0]]] <br>
+-- Output: alerts = [['n', 0], ['n', 0], ['n', [0, 0]]] <br>
                 'n' = normal  <br>
                 'h' = high  <br>
                 'l' = low
