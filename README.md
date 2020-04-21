@@ -54,11 +54,11 @@ a callback to the processor thread occurs.
 
 Author: Steven
 
-Description: 
+Description: Takes in the data from the previous modules and processes it for displaying and keeping track of alerts.
 
--- Input
+-- Input: Vital data, current alerts, and the time settings from the settings module.
 
--- Output
+-- Output: Dictionary with the time setting and alert code created from the vital data. The alert code is a string of 3 numbers that represent each of the three vitals with values of 0,1, and 2 corresponding to high, low, or normal  readings. 
 
 ## Settings:
 
